@@ -17,6 +17,7 @@
     }
 
     .row {
+      margin: auto;
       margin-bottom: 8rem;
 
       @include respond(phone) {
