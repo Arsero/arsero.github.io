@@ -9,19 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: 'Azzedine',
-  subtitle: "I'm a .Net / Javascript Developer.",
-  cta: '',
+  title: 'Oh bonjour! Mon nom est',
+  name: 'Azzedine.',
+  subtitle: 'Je suis développeur .Net / Javascript.',
+  cta: 'En savoir plus',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: '',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://bit.ly/elbazzcv', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -57,8 +57,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to work with me ?',
-  btn: '',
+  cta: 'Un défi à me proposer ?',
+  btn: 'Parlons-en !',
   email: 'azzedine.elb@outlook.com',
 };
 
@@ -67,13 +67,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/elbazzedine/',
+      name: 'github',
+      url: 'https://github.com/Arsero',
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/Arsero',
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/elbazzedine/',
     },
   ],
 };

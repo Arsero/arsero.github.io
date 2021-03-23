@@ -24,7 +24,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="A propos de moi" />
         <Row className="about-wrapper">
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
             <div className="about-wrapper__info">
@@ -47,7 +47,7 @@ const About = () => {
                     className="cta-btn cta-btn--resume"
                     href={resume}
                   >
-                    Resume
+                    Carrière (CV)
                   </a>
                 </span>
               )}
