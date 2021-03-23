@@ -58,7 +58,7 @@ export const projectsData = [
     info:
       'STFA est une plateforme permettant de rassembler des propriétaires \
       d’imprimantes 3D et des créateurs de modèles 3D pour leur \
-      permettre de partager et loueur leurs ressources.',
+      permettre de partager et louer leurs ressources.',
     url: '',
     repo: 'https://github.com/wearespacey/staythef-apex', // if no repo, the button will not show up
   },
