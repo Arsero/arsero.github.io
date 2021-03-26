@@ -4,7 +4,8 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Azzedine El Boujoufi', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
-  description: 'Bienvenue sur mon site !', // e.g: Welcome to my website
+  description:
+    'Bienvenue sur mon site! Mon nom est Azzedine et je suis développeur .Net / Javascript.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -17,11 +18,17 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
-  paragraphOne: '',
+  img: 'profile.jpg',
+  paragraphOne:
+    "C'est un peu par pur hasard que je suis tombé dans l'IT quand j'étais plus jeune. \
+    Au départ, je souhaitais créer un jeu vidéo car je suis fan de cet univers. \
+    Et je ne pensais pas qu'on pouvait faire d'un hobby son métier. Du coup, après 3 ans\
+     à l'HEPL (INPRESS) et 1 an à l'HELMO, diplôme en poche, je décide de me lancer dans \
+     ce secteur d'activité afin d'aider toutes les personnes que je rencontre à simplifier \
+     leur vie en créant des outils capables de les aider.",
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://bit.ly/elbazzcv', // if no resume, the button will not show up
+  resume: 'https://bit.ly/cvelbazz', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,9 +39,9 @@ export const projectsData = [
     title: 'Acryptex',
     info:
       'Acryptex est un gestionnaire de mot de passe, une application bureau multi-plateforme. \
-      Stockez les informations de vos comptes dans un fichier local crypté. \
-      Verrouillez/déverrouillez ce fichier en vous authentifiant avec votre compte maître.',
-    info2: 'Technologies utilisées : React, Redux, TypeScript & Electron.',
+      Stockez les informations de vos comptes dans un fichier local chiffré. \
+      Déchiffrer ce fichier en vous authentifiant avec votre compte maître.',
+    info2: 'Technologies utilisées: React, Redux, TypeScript & Electron.',
     url: '',
     repo: 'https://github.com/Arsero/acryptex', // if no repo, the button will not show up
   },
@@ -47,7 +54,7 @@ export const projectsData = [
     de personnes à besoin(s) spécifique(s) lors de leur arrivée à l’hôpital, \
     à l’aéroport, ou dans tout endroit où des personnes souffrant de \
     déficiences motrices, auditives ou mentales ont besoin d’accompagnement.',
-    info2: 'Technologies utilisées : React, React Native, TypeScript & .Net Core.',
+    info2: 'Technologies utilisées: React, React Native, TypeScript & .Net Core.',
     url: '',
     repo: 'https://github.com/wearespacey/citassist', // if no repo, the button will not show up
   },
@@ -59,6 +66,7 @@ export const projectsData = [
       'STFA est une plateforme permettant de rassembler des propriétaires \
       d’imprimantes 3D et des créateurs de modèles 3D pour leur \
       permettre de partager et louer leurs ressources.',
+    info2: 'Technologies utilisées: NodeJs, NestJs, React & Typescript.',
     url: '',
     repo: 'https://github.com/wearespacey/staythef-apex', // if no repo, the button will not show up
   },
@@ -67,7 +75,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Un défi à me proposer ?',
-  btn: 'Parlons-en !',
+  btn: 'Discutons-en !',
   email: 'azzedine.elb@outlook.com',
 };
 
