@@ -18,7 +18,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.png',
   paragraphOne:
     "C'est un peu par pur hasard que je suis tombé dans l'IT quand j'étais plus jeune. \
     Au départ, je souhaitais créer un jeu vidéo car je suis fan de cet univers. \
