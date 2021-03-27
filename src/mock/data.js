@@ -22,12 +22,11 @@ export const aboutData = {
   paragraphOne:
     "C'est un peu par pur hasard que je suis tombé dans l'IT quand j'étais plus jeune. \
     Au départ, je souhaitais créer un jeu vidéo car je suis fan de cet univers. \
-    Et je ne pensais pas qu'on pouvait faire d'un hobby son métier. Du coup, après 3 ans\
-     à l'HEPL (INPRESS) et 1 an à l'HELMO, diplôme en poche, je décide de me lancer dans \
-     ce secteur d'activité afin d'aider toutes les personnes que je rencontre à simplifier \
-     leur vie en créant des outils capables de les aider.",
-  paragraphTwo: '',
-  paragraphThree: '',
+    Et je ne pensais pas qu'on pouvait faire d'un hobby son métier.",
+  paragraphTwo:
+    "Du coup, après 3 ans à la HEPL (INPRES), je décide de me lancer dans ce secteur d'activité \
+  afin d'aider toutes les personnes que je rencontre à simplifier leur vie en créant des outils capables de les aider.",
+  paragraphThree: 'Sujets qui me tiennent à coeur : Open Source, Cloud et Green IT.',
   resume: 'https://bit.ly/cvelbazz', // if no resume, the button will not show up
 };
 
