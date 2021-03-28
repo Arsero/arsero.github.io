@@ -26,7 +26,7 @@ export const aboutData = {
   paragraphTwo:
     "Du coup, après 3 ans à la HEPL (INPRES), je décide de me lancer dans ce secteur d'activité \
   afin d'aider toutes les personnes que je rencontre à simplifier leur vie en créant des outils capables de les aider.",
-  paragraphThree: 'Sujets qui me tiennent à coeur : Open Source, Cloud et Green IT.',
+  paragraphThree: 'Des sujets qui me tiennent à coeur : Open Source, Cloud et Green IT.',
   resume: 'https://bit.ly/cvelbazz', // if no resume, the button will not show up
 };
 
@@ -60,7 +60,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'stfa.png',
-    title: 'Stay The F*** Apex - Stay the F*** At Home Hackathon',
+    title: 'Stay The F*** Apex - Hackathon Stay the F*** At Home',
     info:
       'STFA est une plateforme permettant de rassembler des propriétaires \
       d’imprimantes 3D et des créateurs de modèles 3D pour leur \
