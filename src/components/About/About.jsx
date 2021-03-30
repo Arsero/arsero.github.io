@@ -38,28 +38,33 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  {
+                    "C'est un peu par pur hasard que je suis tombé dans l'IT quand j'étais plus jeune. \
+                    Au départ, je souhaitais créer un jeu vidéo car je suis fan de cet univers. \
+                    Et je ne pensais pas qu'on pouvait faire d'un hobby son métier."
+                  }
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  {
+                    "Du coup, après 3 ans à la HEPL (INPRES), je décide de me lancer dans ce secteur d'activité \
+                    afin d'aider toutes les personnes que je rencontre à simplifier leur vie en créant des outils capables de les aider."
+                  }
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {'Des sujets qui me tiennent à coeur : Open Source, Cloud et Green IT.'}
                 </p>
-                {resume && (
+                {
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://bit.ly/cvelbazz"
                     >
                       Carrière (CV)
                     </a>
                   </span>
-                )}
+                }
               </div>
             </Fade>
           </Col>
