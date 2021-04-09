@@ -34,20 +34,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'hackagaume.png',
-    title: 'La Conciergerie Connectée - Hackagaume',
-    info:
-      "La Conciergerie Connectée est une plateforme qui rassemblent différents services pour \
-      un Tiers-Lieu. Le site permet d’avoir une interaction entre différents acteurs, elle facilite \
-      l'accès aux services interne, services externe, événements et annonces au Tiers-Lieu.  \
-      Une évolution possible est la mise en place de casiers connectés pour être utilisés comme points relais\
-      au sein du Tiers-Lieu.",
-    info2: 'Technologies utilisées: NodeJs & Angular.',
-    url: '',
-    repo: 'https://github.com/Arsero/project-hackagaume', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'acryptex.png',
     title: 'Acryptex',
     info:
@@ -82,6 +68,20 @@ export const projectsData = [
     info2: 'Technologies utilisées: NodeJs, NestJs, React & Typescript.',
     url: '',
     repo: 'https://github.com/wearespacey/staythef-apex', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hackagaume.png',
+    title: 'La Conciergerie Connectée - Hackagaume',
+    info:
+      "La Conciergerie Connectée est une plateforme qui rassemblent différents services pour \
+      un Tiers-Lieu. Le site permet d’avoir une interaction entre différents acteurs, elle facilite \
+      l'accès aux services interne, services externe, événements et annonces au Tiers-Lieu.  \
+      Une évolution possible est la mise en place de casiers connectés pour être utilisés comme points relais\
+      au sein du Tiers-Lieu.",
+    info2: 'Technologies utilisées: NodeJs & Angular.',
+    url: '',
+    repo: 'https://github.com/Arsero/project-hackagaume', // if no repo, the button will not show up
   },
 ];
 
