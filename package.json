@@ -33,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "yarn predeploy && gh-pages -d public -b master"
+    "deploy": "yarn predeploy && gh-pages -d build public -b master"
   },
   "eslintConfig": {
     "extends": [
