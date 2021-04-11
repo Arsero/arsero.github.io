@@ -34,7 +34,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'acryptex.png',
+    img: '/src/images/acryptex.png',
     title: 'Acryptex',
     info:
       'Acryptex est un gestionnaire de mot de passe, une application bureau multi-plateforme. \
