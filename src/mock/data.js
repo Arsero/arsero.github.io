@@ -60,7 +60,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'stfa.png',
-    title: 'Stay The F*** Apex - Hackathon Stay the F*** At Home',
+    title: 'STFA - Hackathon Stay At Home',
     info:
       'STFA est une plateforme permettant de rassembler des propriétaires \
       d’imprimantes 3D et des créateurs de modèles 3D pour leur \
