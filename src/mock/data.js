@@ -36,8 +36,7 @@ export const projectsData = [
     id: nanoid(),
     img: '/src/images/acryptex.png',
     title: 'Acryptex',
-    info:
-      'Acryptex est un gestionnaire de mot de passe, une application bureau multi-plateforme. \
+    info: 'Acryptex est un gestionnaire de mot de passe, une application bureau multi-plateforme. \
       Stockez les informations de vos comptes dans un fichier local chiffré. \
       Déchiffrer ce fichier en vous authentifiant avec votre compte maître.',
     info2: 'Technologies utilisées: React, Redux, TypeScript & Electron.',
@@ -48,40 +47,13 @@ export const projectsData = [
     id: nanoid(),
     img: 'citassist.png',
     title: 'Citassist - Hackathon Citizens of Wallonia 2020',
-    info:
-      'Citassist est une solution globale de prise en charge \
+    info: 'Citassist est une solution globale de prise en charge \
     de personnes à besoin(s) spécifique(s) lors de leur arrivée à l’hôpital, \
     à l’aéroport, ou dans tout endroit où des personnes souffrant de \
     déficiences motrices, auditives ou mentales ont besoin d’accompagnement.',
     info2: 'Technologies utilisées: React, React Native, TypeScript & .Net Core.',
     url: '',
     repo: 'https://github.com/wearespacey/citassist', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'stfa.png',
-    title: 'STFA - Hackathon Stay At Home',
-    info:
-      'STFA est une plateforme permettant de rassembler des propriétaires \
-      d’imprimantes 3D et des créateurs de modèles 3D pour leur \
-      permettre de partager et louer leurs ressources.',
-    info2: 'Technologies utilisées: NodeJs, NestJs, React & Typescript.',
-    url: '',
-    repo: 'https://github.com/wearespacey/staythef-apex', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'hackagaume.png',
-    title: 'La Conciergerie Connectée - Hackagaume',
-    info:
-      "La Conciergerie Connectée est une plateforme qui rassemblent différents services pour \
-      un Tiers-Lieu. Le site permet d’avoir une interaction entre différents acteurs, elle facilite \
-      l'accès aux services interne, services externe, événements et annonces au Tiers-Lieu.  \
-      Une évolution possible est la mise en place de casiers connectés pour être utilisés comme points relais\
-      au sein du Tiers-Lieu.",
-    info2: 'Technologies utilisées: NodeJs & Angular.',
-    url: '',
-    repo: 'https://github.com/Arsero/project-hackagaume', // if no repo, the button will not show up
   },
 ];
 

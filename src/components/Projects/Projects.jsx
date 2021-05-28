@@ -6,8 +6,6 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import p1 from '../../images/acryptex.png';
 import p2 from '../../images/citassist.png';
-import p3 from '../../images/stfa.png';
-import p4 from '../../images/hackagaume.png';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
