@@ -11,7 +11,7 @@ const Projects = () => {
   const { projects } = useContext(PortfolioContext);
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const images = [p1, p2, p3, p4];
+  const images = [p1, p2];
   let i = 0;
 
   useEffect(() => {
