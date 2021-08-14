@@ -34,14 +34,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '/src/images/acryptex.png',
-    title: 'Acryptex',
-    info: 'Acryptex est un gestionnaire de mot de passe, une application bureau multi-plateforme. \
+    img: '/src/images/bluecrypt.png',
+    title: 'bluecrypt',
+    info: 'bluecrypt est un gestionnaire de mot de passe, une application bureau multi-plateforme. \
       Stockez les informations de vos comptes dans un fichier local chiffré. \
       Déchiffrer ce fichier en vous authentifiant avec votre compte maître.',
-    info2: 'Technologies utilisées: React, Redux, TypeScript & Electron.',
+    info2: 'Technologies utilisées: React, TypeScript & Electron.',
     url: '',
-    repo: 'https://github.com/Arsero/acryptex', // if no repo, the button will not show up
+    repo: 'https://arsero.github.io/bluecrypt-page/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

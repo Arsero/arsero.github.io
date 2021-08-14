@@ -4,7 +4,7 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import p1 from '../../images/acryptex.png';
+import p1 from '../../images/bluecrypt.png';
 import p2 from '../../images/citassist.png';
 
 const Projects = () => {
@@ -59,7 +59,7 @@ const Projects = () => {
                           className="cta-btn cta-btn--hero"
                           href={repo}
                         >
-                          Code Source
+                          En savoir plus
                         </a>
                       )}
                     </div>
